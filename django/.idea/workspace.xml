@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab247bfa-77cc-4c20-84d0-896306d04e6c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Project3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/2021-10-12.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/car_name.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/cars.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/code.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/danawa.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/df_split.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_for_csv/en_car_all_foreign.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_for_csv/en_car_black.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_for_csv/en_car_blue.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_for_csv/en_car_brown.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_for_csv/en_car_carrot.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_for_csv/en_car_deep_green.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_for_csv/en_car_gold.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_for_csv/en_car_gray.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_for_csv/en_car_green.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_for_csv/en_car_kor_black.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_for_csv/en_car_light_gold.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_for_csv/en_car_light_green.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_for_csv/en_car_pearl.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_for_csv/en_car_red.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_for_csv/en_car_silver.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_for_csv/en_car_silver_gray.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_for_csv/en_car_sky.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_for_csv/en_car_white.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_kor_csv/black_N.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_kor_csv/blue_N.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_kor_csv/brown_N.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_kor_csv/gold_N.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_kor_csv/green_N.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_kor_csv/orange_N.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_kor_csv/pearl_N.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_kor_csv/pink_N.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_kor_csv/purple_N.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_kor_csv/red_N.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_kor_csv/silver_N.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_kor_csv/white_N.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_전처리.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_csv/en_car_전처리.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_kor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/en_car_kor_test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/fail_code1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/fail_code2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/k_car.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/k_car_code.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/k_car_csv/k_car.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/m_park_csv/m_park_black.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/21.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/22.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/23.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/24.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/25.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/26.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/27.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/28.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/29.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc/9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc_for/1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc_for/10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc_for/11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc_for/12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc_for/13.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc_for/14.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc_for/15.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc_for/16.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc_for/17.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc_for/18.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc_for/19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc_for/2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc_for/20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc_for/21.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc_for/22.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc_for/23.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc_for/24.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc_for/25.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc_for/26.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc_for/28.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc_for/29.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc_for/3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc_for/4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc_for/5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc_for/6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc_for/7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc_for/8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/no_acc_for/9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/wd추가.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Crawling_Code/전처리코드.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/Car/my_settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/car_price/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/car_price/static/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/car_price/static/css/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/car_price/static/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/car_price/static/css/menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/car_price/static/css/product.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/car_price/static/css/size.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/car_price/static/css/slideShow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/car_price/static/css/tabMenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/car_price/static/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/car_price/static/img/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/car_price/static/js/banner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/car_price/static/js/banner2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/car_price/static/js/checklist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/car_price/static/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/car_price/static/js/jquery-3.5.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/car_price/static/js/menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/car_price/static/js/slideShow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/car_price/static/js/subMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/car_price/static/js/tabMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/car_price/templates/buy_page1_test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/car_price/templates/buy_page_test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/car_price/templates/car_buy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/car_price/templates/car_search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/car_price/templates/day_car_main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/functions/day_car.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/functions/encar_for.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/functions/function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/functions/kcar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/static/css/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/static/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/static/css/menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/static/css/product.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/static/css/slideShow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/static/css/tabMenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/static/img/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/static/js/checklist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/static/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/static/js/slideShow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/static/js/subMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/static/js/tabMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/MySQLdb/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/MySQLdb/_exceptions.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1znuSVFrkW5yuWRBooQtBonTo7X" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/새 폴더 (5)/Car" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project3\django\Car\static\js" />
+      <recent name="E:\Project3\django\Car\car_price\static\js" />
+      <recent name="E:\Project3\django\Car\car_price\templates" />
+      <recent name="E:\Project3\django\Car\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Project3\django\Car\car_price\templates" />
+      <recent name="E:\Project3\django\Car\car_price\static\img" />
+      <recent name="E:\Project3\django\Car\car_price\static\js" />
+      <recent name="E:\Project3\django\Car\car_price\static" />
+      <recent name="E:\Project3\django\Car\functions" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab247bfa-77cc-4c20-84d0-896306d04e6c" name="Default Changelist" comment="" />
+      <created>1634796173124</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634796173124</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Car/car_price/views.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

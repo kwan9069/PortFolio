@@ -1,0 +1,162 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+
+<head>
+    <title>DayCar &mdash; Your Neighborhood Dealer</title>
+     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+
+    <style>
+        .stagger-item {
+        position: absolute;
+        top: 30%;
+        width: 100%;
+        text-align: center;
+        font-size: 55px;
+         }
+         .stagger-item2 {
+        position: absolute;
+        top: 40%;
+        width: 100%;
+        text-align: center;
+        font-size: 55px;
+        color: white;
+         }
+    </style>
+
+    <style>
+      p {
+        font-family: 'Nanum Gothic Coding', monospace;}
+    </style>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- main page css-->
+    <link rel="stylesheet" type="text/css" media="screen" href="{% static 'home/css/animation.css' %}">
+
+    <link rel="stylesheet" href="{% static 'home/fonts/icomoon/style.css' %} ">
+    <link rel="stylesheet" href="{% static 'home/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'home/css/bootstrap-datepicker.css' %}">
+    <link rel="stylesheet" href="{% static 'home/css/jquery.fancybox.min.css' %}">
+    <link rel="stylesheet" href="{% static 'home/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'home/css/owl.theme.default.min.css' %}">
+    <link rel="stylesheet" href="{% static 'home/fonts/flaticon/font/flaticon.css' %}">
+    <link rel="stylesheet" href="{% static 'home/css/aos.css' %}">
+    <script src="static/home/js/jquery-3.3.1.min.js"></script>
+
+    <!-- main -->
+    <link rel="stylesheet" href="{% static 'home/css/style.css' %}">
+  </head>
+
+
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <div class="site-wrap" id="home-section">
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+
+
+      <header class="site-navbar site-navbar-target" role="banner">
+        <div class="container">
+          <div class="row align-items-center position-relative">
+            <div class="col-3 ">
+              <div class="site-logo">
+                <a href="/"><img src="static/home/images/car.gif" target="_blank" style = "width:30px; height:30px;">DayCar</a>
+              </div>
+            </div>
+            <div class="col-9  text-right">
+              <span class="d-inline-block d-lg-none"><a href="#" class="text-white site-menu-toggle js-menu-toggle py-5 text-white"><span class="icon-menu h3 text-white"></span></a></span>
+
+
+              <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
+                <ul class="site-menu main-menu js-clone-nav ml-auto ">
+                  <li><a href="/index" class="nav-link">차량 판매</a></li>
+                  <li><a href="/buy" class="nav-link">차량 구입</a></li>
+                  <li><a href="/cars" class="nav-link">가격동향</a></li>
+                    <li><a href="/topics" class="nav-link">Hot Topic</a></li>
+                    <li><a href="/about" class="nav-link">About Us</a></li>
+                    {% if user.is_authenticated %}
+		    <p style="color:white;">{{ user.username }}</p>
+                    <a href="javascript:{document.getElementById('logout').submit()}">로그아웃</a>
+                    <form id="logout" method="POST" action="{% url 'logout' %}">
+                        {% csrf_token %} <input type="hidden" />
+                    </form>
+                    {% else %}
+                    <a href="{% url 'signup' %}" style="color:white;">회원가입</a>
+                    <a href="{% url 'login' %}" style="color:white;">로그인</a>
+                    {% endif %}
+                    <!--                    <li><a href="/Login" class="nav-link">회원가입/로그인</a></li>-->
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+
+      </header>
+       <div class="ftco-blocks-cover-2">
+      <div class="ftco-cover-1 overlay" style="background-image: url({% static 'home/images/나무.jpg' %});">
+
+
+
+
+  <body>
+ <div class="text-area stagger-wrapper">
+      <h1>
+          <div class="stagger-item">
+              Classic never gets old
+              <br>Drive your dream with DayCar
+              <div class="line"></div></div></h1>
+
+
+
+
+    </div>
+</body>
+
+
+
+                </div>
+              </div>
+          </div>
+
+
+
+
+
+              <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+      <center> Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Your Neighborhood Dealer <img src="{% static 'home/images/car.gif' %}" target="_blank" style = "width:25px; height:25px;">Day Car </center>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
+              </p>
+
+            </div>
+          </div>
+
+
+    </footer>
+
+
+    <script src="{% static 'home/js/jquery-3.3.1.min.js' %}"></script>
+    <script src="{% static 'home/js/popper.min.js' %}"></script>
+    <script src="{% static 'home/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'home/js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'home/js/jquery.sticky.js' %}"></script>
+    <script src="{% static 'home/js/jquery.waypoints.min.js' %}"></script>
+    <script src="{% static 'home/js/jquery.animateNumber.min.js' %}"></script>
+    <script src="{% static 'home/js/jquery.fancybox.min.js' %}"></script>
+    <script src="{% static 'home/js/jquery.easing.1.3.js' %}"></script>
+    <script src="{% static 'home/js/bootstrap-datepicker.min.js' %}"></script>
+    <script src="{% static 'home/js/aos.js' %}"></script>
+    <script src="{% static 'home/js/main.js' %}"></script>
+
+
+</html>

@@ -1,0 +1,305 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>DayCar &mdash; Your Neighborhood Dealer</title>
+     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+    <style>
+      p {
+        font-family: 'Nanum Gothic Coding', monospace;
+      }
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+    <link rel="stylesheet" href="{% static 'home/fonts/icomoon/style.css' %} ">
+
+    <link rel="stylesheet" href="{% static 'home/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'home/css/bootstrap-datepicker.css' %}">
+    <link rel="stylesheet" href="{% static 'home/css/jquery.fancybox.min.css' %}">
+    <link rel="stylesheet" href="{% static 'home/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'home/css/owl.theme.default.min.css' %}">
+    <link rel="stylesheet" href="{% static 'home/fonts/flaticon/font/flaticon.css' %}">
+    <link rel="stylesheet" href="{% static 'home/css/aos.css' %}">
+    <link rel="stylesheet" href="{% static 'home/css/styless.css' %}">
+    <link rel="stylesheet" href="{% static 'home/css/tabMenu.css' %}">
+
+
+    <script src="static/home/js/jquery-3.3.1.min.js"></script>
+    <script src = "https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script type="text/javascript" src="{% static 'home/js/tabMenu.js' %}"></script>
+
+
+    <!-- main -->
+    <link rel="stylesheet" href="{% static 'home/css/style.css' %}">
+
+  </head>
+
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+    <div class="site-wrap" id="home-section">
+
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+
+
+
+      <header class="site-navbar site-navbar-target" role="banner">
+
+        <div class="container">
+          <div class="row align-items-center position-relative">
+
+            <div class="col-3 ">
+              <div class="site-logo">
+                <a href="/"><img src="static/home/images/car.gif" target="_blank" style = "width:30px; height:30px;">DayCar</a>
+              </div>
+            </div>
+
+            <div class="col-9  text-right">
+
+
+              <span class="d-inline-block d-lg-none"><a href="#" class="text-white site-menu-toggle js-menu-toggle py-5 text-white"><span class="icon-menu h3 text-white"></span></a></span>
+
+
+
+              <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
+                <ul class="site-menu main-menu js-clone-nav ml-auto ">
+                  <li><a href="/index" class="nav-link">차량 판매</a></li>
+                  <li><a href="/buy" class="nav-link">차량 구입</a></li>
+                  <li  class="active"><a href="/cars" class="nav-link">가격동향</a></li>
+                  <li><a href="/topics" class="nav-link">Hot Topic</a></li>
+                  <li><a href="/about" class="nav-link">About Us</a></li>
+                      {% if user.is_authenticated %}
+                    <p style="color:white;">{{ user.username }}</p>
+                    <a href="javascript:{document.getElementById('logout').submit()}">로그아웃</a>
+                    <form id="logout" method="POST" action="{% url 'logout' %}">
+                        {% csrf_token %} <input type="hidden" />
+                    </form>
+                    {% else %}
+                    <a href="{% url 'signup' %}" style="color:white;">회원가입</a>
+                    <a href="{% url 'login' %}" style="color:white;">로그인</a>
+                    {% endif %}
+                </ul>
+              </nav>
+            </div>
+
+
+          </div>
+        </div>
+
+      </header>
+
+       <div class="ftco-blocks-cover-2">
+      <div class="ftco-cover-1 overlay" style="background-image: url({% static 'home/images/cars.jpg' %});">
+
+        <div class="container">
+          <div class="row align-items-center" >
+
+            <div id = "tabMenuBox" class="feature-car-rent-box-2" style="z-index: 1000;position:relative;height: 750px;width: 1300px;margin-top:150px;">
+                <h3>중고차 동향</h3><br>
+                <div id= "tab" class="d-flex align-items-center bg-light p-3" >
+
+                    <span >
+                    <input type="radio" id= avgpri name="chk_info" value="브랜드별 분포" checked><label style="color:black;">브랜드별 분포</label>
+                    <input type="radio" id= brapri name="chk_info" value="구동방식 분포 (%)"><label style="color:black;">구동방식 분포 (%)</label>
+                    <input type="radio" id= wdpi name="chk_info" value="자동차 연식별 평균 가격" ><label style="color:black;">자동차 연식별 평균 가격</label>
+                    <input type="radio" id= brapi name="chk_info" value="브랜드별 중고차 가격" ><label style="color:black;">브랜드별 중고차 가격</label>
+                    </span>
+                </div>
+
+
+                <div id = 'tabContent'>
+                <div><canvas id="myChart" width="900px" height="450px"></canvas></div>
+					<div></div>
+                <div><canvas id="myChart2" width="900px" height="450px"></canvas></div>
+					<div></div>
+                <div><canvas id="myChart3" width="900px" height="450px"></canvas></div>
+					<div></div>
+                <div><img src = "{% static 'home/images/boxplot.png' %}" width="1400px" height="528px" ></div>
+                    <div></div>
+                </div>
+
+
+              </div>
+
+          </div>
+        </div>
+      </div>
+       </div>
+
+    </body>
+
+
+              <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+      <center> Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Your Neighborhood Dealer <img src="{% static 'home/images/car.gif' %}" target="_blank" style = "width:25px; height:25px;">Day Car </center>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
+              </p>
+            </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+    </div>
+
+    <script src="{% static 'home/js/jquery-3.3.1.min.js' %}"></script>
+    <script src="{% static 'home/js/popper.min.js' %}"></script>
+    <script src="{% static 'home/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'home/js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'home/js/jquery.sticky.js' %}"></script>
+    <script src="{% static 'home/js/jquery.waypoints.min.js' %}"></script>
+    <script src="{% static 'home/js/jquery.animateNumber.min.js' %}"></script>
+    <script src="{% static 'home/js/jquery.fancybox.min.js' %}"></script>
+    <script src="{% static 'home/js/jquery.easing.1.3.js' %}"></script>
+    <script src="{% static 'home/js/bootstrap-datepicker.min.js' %}"></script>
+    <script src="{% static 'home/js/aos.js' %}"></script>
+
+    <script src="{% static 'home/js/main.js' %}"></script>
+
+
+
+
+
+
+</html>
+
+<script>
+const ctxb = document.getElementById('myChart').getContext('2d');
+const myChart_b = new Chart(ctxb, {
+    type: 'bar',
+    data: {
+        labels: ['기아', '현대', '쌍용', '아우디', '쉐보레', '르노삼성','벤츠','BMW','제네시스','폭스바겐','미니','랜드로버','포드'],
+        datasets: [{
+            label: '자동차 브랜드별 분포도',
+            data: [11201,7508,3528,3414,2718,2542,2538,2471,2008,1682,1394,932,774],
+            backgroundColor: [
+                'rgba(40, 116, 166, 0.7)',
+                'rgba(40, 116, 166, 0.7)',
+                 'rgba(40, 116, 166, 0.7)',
+                'rgba(40, 116, 166, 0.7)',
+                'rgba(40, 116, 166, 0.7)',
+                'rgba(40, 116, 166, 0.7)',
+                 'rgba(40, 116, 166, 0.7)',
+                'rgba(40, 116, 166, 0.7)',
+                 'rgba(40, 116, 166, 0.7)',
+                'rgba(40, 116, 166, 0.7)',
+                 'rgba(40, 116, 166, 0.7)',
+                'rgba(40, 116, 166, 0.7)',
+                'rgba(40, 116, 166, 0.7)'
+            ],
+            borderColor: [
+                'rgba(40, 116, 166, 0.7)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)',
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)',
+                'rgba(255, 99, 132, 0.2)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+    </script>
+
+
+<script>
+const ctxp = document.getElementById('myChart2').getContext('2d');
+const myChart_p = new Chart(ctxp, {
+    type: 'pie',
+    data: {
+        labels: ['2WD', '4WD','AWD'],
+        datasets: [{
+            label: '# of Votes',
+            data: ['77.2','17.8','5'],
+            backgroundColor: [
+            'rgba(241, 196, 15, 0.7)',
+            'rgba(230, 126, 34, 0.7)',
+            'rgba(19, 141, 117, 0.7)'
+            ],
+
+
+            borderColor: [
+            'rgba(241, 196, 15, 0.5)',
+            'rgba(230, 126, 34, 0.5)',
+            'rgba(19, 141, 117, 0.5)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+    </script>
+
+<script>
+const ctxl = document.getElementById('myChart3').getContext('2d');
+const myChart_l = new Chart(ctxl, {
+    type: 'line',
+    data: {
+        labels: ['1992','1994','1995','1997','1998','1999','2000','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016','2017','2018','2019','2020','2021'],
+        datasets: [{
+            label: '가격',
+            data: [315,300,950,850,290,449,425,520,603,795,533,568,583,587,646,638,716,858,1007,1306,1552,1884,2158,2415,2813,3220,2918,4120],
+
+
+            borderColor: [
+                'rgba(54, 162, 235, 1)','rgba(54, 162, 235, 1)',
+                'rgba(54, 162, 235, 1)','rgba(54, 162, 235, 1)',
+                'rgba(54, 162, 235, 1)','rgba(54, 162, 235, 1)',
+                'rgba(54, 162, 235, 1)','rgba(54, 162, 235, 1)',
+                'rgba(54, 162, 235, 1)','rgba(54, 162, 235, 1)',
+                'rgba(54, 162, 235, 1)','rgba(54, 162, 235, 1)',
+                'rgba(54, 162, 235, 1)','rgba(54, 162, 235, 1)',
+                'rgba(54, 162, 235, 1)','rgba(54, 162, 235, 1)',
+                'rgba(54, 162, 235, 1)','rgba(54, 162, 235, 1)',
+                'rgba(54, 162, 235, 1)','rgba(54, 162, 235, 1)',
+                'rgba(54, 162, 235, 1)','rgba(54, 162, 235, 1)',
+                'rgba(54, 162, 235, 1)','rgba(54, 162, 235, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+    </script>
+
+

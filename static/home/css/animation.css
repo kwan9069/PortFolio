@@ -1,0 +1,25 @@
+@keyframes showItem {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+    color: brown;
+  }
+
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.stagger-item {
+  animation: showItem 2s;
+  animation-fill-mode: both;
+
+.stagger-item2 {
+  animation: showItem 2s;
+  animation-fill-mode: both;
+}
+
+
+
+
